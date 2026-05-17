@@ -2,6 +2,11 @@
 import kyau from "../assets/education/kyau.png";
 import bsdusc from "../assets/education/bsdusc.png";
 import RHS from "../assets/education/RHS.png";
+// Certificates
+import achievement from "../assets/certificates/achievement.png";
+import certificate1 from "../assets/certificates/certificate1.png";
+import certificate2 from "../assets/certificates/certificate2.png";
+import certificate3 from "../assets/certificates/certificate3.png";
 //Experience
 import ideeza from "../assets/experiences/ideeza.png";
 import sitet from "../assets/experiences/sitet.png";
@@ -69,6 +74,53 @@ export const education = [
         degree: "Secondary School Certificate",
         desc: "Completed Secondary School Certificate (SSC) in Science from Rajapur High School (2009–2014). Built a strong academic foundation in science, mathematics, and analytical problem-solving through consistent learning and dedication.Developed an early interest in technology and logical thinking that inspired the journey toward computer science and software engineering.",
     },
+    {
+        id: 4,
+        img: achievement,
+        school: "Professional Certifications",
+        date: "2024 - Present",
+        grade: "Achievements",
+        degree: "Certificates",
+        desc: "View my professional certifications and achievements earned through continuous learning and technical training.",
+        link: "/certificates",
+    },
+];
+//certificates
+export const certificates = [
+    {
+        id: 1,
+        title: "Software Quality Assurance",
+        issuer: "Ostad",
+        date: "2025",
+        image: certificate1,
+        link: "https://ostad.app/share/certificate/c22407-md.-sabbir-hasan",
+    },
+    {
+        id: 2,
+        title: "Software Quality Assurance Assessment",
+        issuer: "Ostad",
+        date: "2025",
+        image: certificate2,
+        link: "https://ostad.app/share/certificate/a22408-md.-sabbir-hasan",
+    },
+
+    {
+        id: 3,
+        title: "Software Quality Assurance Career Bootcanp",
+        issuer: "Mallik Galib Shahriar",
+        date: "2025",
+        image: certificate3,
+        link: "https://drive.google.com/file/d/1ohkJX-BUbRMekwNxscQCGjKskEfeO3rp/view",
+    },
+
+    // {
+    //     id: 4,
+    //     title: "JavaScript Essentials",
+    //     issuer: "freeCodeCamp",
+    //     date: "2024",
+    //     image: certificate4,
+    //     link: certificate4,
+    // },
 ];
 
 // Experience section
