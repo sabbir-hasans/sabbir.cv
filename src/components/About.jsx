@@ -71,7 +71,7 @@ function About() {
                     <div className="mt-8 flex gap-4 flex-wrap">
 
                         <a
-                            href="https://drive.google.com/drive/folders/194o0RPfZ20SFtwhnLRN5WauWuPqWifAc?usp=sharing"
+                            href="https://drive.google.com/file/d/1ZuGMSWTyYkgSDDqk_tGEgLT9wEknB4Mg/view?usp=sharing"
                             target="_blank"
                             rel="noreferrer"
                             className="px-6 py-3 rounded-full bg-cyan-500 hover:bg-cyan-400 transition duration-300 font-semibold"
